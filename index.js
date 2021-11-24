@@ -1,0 +1,1 @@
+export { TableComponent } from './src/TableComponent.js';

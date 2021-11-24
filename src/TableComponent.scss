@@ -1,0 +1,42 @@
+@import "node_modules/@bbva-web-components/bbva-foundations-sass/main";
+
+:host {
+  display: block;
+  box-sizing: border-box;
+}
+
+:host([hidden]), [hidden] {
+  display: none !important;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.table-component{
+  padding: 20px;
+  background-color: rgb(241, 241, 241);
+}
+
+.table-container{
+  display: flex;
+  justify-content: center;
+}
+
+.table-top{
+  background-color: rgb(25, 115, 184);
+  color: white; 
+}
+.table-bottom{
+  background-color: white;
+}
+
+.table-container td{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+td span{
+  color: rgb(25, 115, 184);
+}
